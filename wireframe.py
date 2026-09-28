@@ -33,7 +33,7 @@ hand_landmarker = vision.HandLandmarker.create_from_options(hand_opts)
 face_landmarker = vision.FaceLandmarker.create_from_options(face_opts)
 pose_landmarker = vision.PoseLandmarker.create_from_options(pose_opts)
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 timestamp_ms = 0
 
 cv2.namedWindow("Wireframe", cv2.WINDOW_NORMAL)
